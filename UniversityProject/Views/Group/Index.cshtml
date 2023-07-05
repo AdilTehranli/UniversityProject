@@ -1,16 +1,8 @@
 ﻿@model List<Groups> 
 @{
-    Layout = null;
+    ViewData["title"] = "group";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
     
     <h1>Groups:</h1>
 
@@ -20,5 +12,3 @@
             <li>@item.Name</li>
         }
     </ul>
-</body>
-</html>
